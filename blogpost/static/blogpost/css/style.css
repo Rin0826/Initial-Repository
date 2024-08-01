@@ -1,0 +1,157 @@
+.mainimage {
+  height: 333px;
+  background-image: url(../images/background5.png);
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+  background-position-x: 50%;
+}
+
+.card-photo {
+  text-align: center;
+}
+
+.card-body img {
+  max-width: 800px;
+}
+
+.side {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.side {
+  background-size: 100%;
+  background-color: aqua;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  text-align:center;
+  margin-left:0px;/*サイドバーとメインコンテンツの間に隙間*/
+} 
+
+.side header {
+  font-size: 33px;
+  text-align: center;
+  line-height: 70px;
+  color: #ffffff;
+  background-color: blue;
+  user-select: none;
+}
+
+.side ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 70px;
+  font-size: 20px;
+  padding-left: 0;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid black;
+}
+
+.side .koukoku1 {
+  background-image: url(../images/koukoku1.png);
+}
+
+.bbs{
+  align-items: center;
+  background: #005521;
+  color: #fff;
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  overflow:hidden;
+  width: 100%;
+  white-space:nowrap;
+  margin-top: 100px;
+  z-index: 1;
+}
+.bbs ul {
+  animation: flowing 20s linear infinite;
+  font-size: 20px;
+  transform:translateX(100%);
+  margin: 0;
+  padding: 0;
+}
+.bbs ul li{
+  display: inline-block;
+  padding-right: 10px;
+}
+@keyframes flowing {
+  0% { transform:translateX(0); }
+  100% { transform:translateX(-100%); }
+}
+
+.container-foot-bg {
+  max-width: 100%;
+  width: 100%;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px; /* ボタンのサイズを適宜調整 */
+    height: 80px;
+    z-index: 100; /* 他の要素よりも前面に表示 */
+}
+
+.scroll-to-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 画像がボタンにフィットするように調整 */
+}
+
+.content-nav-bg {
+  color: rgb(0, 0, 0); /* テキストの色を設定 */
+  top: 0; /* 上端に配置 */
+  width: 100%; /* 全幅 */
+  max-width: 100%;
+  width: 100%;
+  }
+  .nav-bg .nav-link {
+    color: rgb(10, 10, 10); /* リンクの色を白に設定 */
+  }
+  .nav-bg .nav-link.active {
+    background-color: #19f024; /* アクティブリンクの背景色を設定 */
+  }
+
+.d-flex.flex-wrap.justify-content-center.py-3.mb-4.border-bottom{
+  background-color: #ffffff; /* 色の背景色 */
+}
+
+.nav-bg .nav-link {
+  color: rgb(0, 0, 0); /* リンクの色を設定 */
+}
+
+.nav-bg .nav-link.active {
+  background-color: #19f024; /* アクティブリンクの背景色を設定 */
+}
+
+.mb-auto{
+  background-color: #ffffff;
+  display:flex;/*サイドバーとメインコンテンツを横並びにする*/
+}
+
+.card {
+  margin-bottom: 50px;
+  max-width: 100%;
+  width: 100%;
+}
+
+footer {
+  background-color: #ffffff; /* 紺色の背景色 */
+  color: rgb(5, 5, 5); /* テキストの色を白に設定 */
+}
+
+.subscription{
+  height: 333px;
+  background-image: url(../images/subscription.png);
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+  background-position-x: 50%;
+}
